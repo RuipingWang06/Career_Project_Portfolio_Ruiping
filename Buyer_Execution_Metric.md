@@ -17,8 +17,8 @@ Finally, integrating **Power Apps** to capture **un-execution reasons** and disp
 # **Power BI with Mock-up data**
 <img width="1135" height="801" alt="image" src="https://github.com/user-attachments/assets/45029085-4602-44ce-9a04-13cf0c537569" />
 <img width="1137" height="804" alt="image" src="https://github.com/user-attachments/assets/dd0fed03-709b-40f9-b0d5-d9694a4574b8" />
-<img width="948" height="770" alt="image" src="https://github.com/user-attachments/assets/c5a8553b-b8d9-4073-bc12-7881dc0db13b" />
-<img width="946" height="771" alt="image" src="https://github.com/user-attachments/assets/6bd8d0b0-ebe3-45c9-81bb-910f46cc631c" />
+<img width="1137" height="804" alt="image" src="https://github.com/user-attachments/assets/c5a8553b-b8d9-4073-bc12-7881dc0db13b" />
+<img width="1137" height="804" alt="image" src="https://github.com/user-attachments/assets/6bd8d0b0-ebe3-45c9-81bb-910f46cc631c" />
 
 
 
