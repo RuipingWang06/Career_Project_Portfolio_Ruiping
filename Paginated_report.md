@@ -1,5 +1,5 @@
 # **3510 Work Lot Detail (HU Listing with Sublot Sort)**
-## **Background**
+## **Project Background**
 
 This requirement came from a **Tableau-to-Power BI migration** project.  
 We built the report as a **paginated report** rather than a standard Power BI table because paginated reports can be **printed directly**. In contrast, Power BI tables must be **exported to Excel** for printing, which creates a risk of **data changes** if users modify the file.  
