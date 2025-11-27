@@ -14,7 +14,7 @@ I learned how to build a paginated report on top of a **Power BI semantic model*
 <img width="1369" height="889" alt="image" src="https://github.com/user-attachments/assets/36e442c9-9836-4a7e-96bf-63633e0953b7" />
 
 # **HUA Yield**
-## **Background**
+## **Project Background**
 
 In our organization, the standard approach to developing **paginated reports** is to use **expressions**, which function similarly to a **stored procedure**. We also build paginated reports on top of a **semantic model**, which works like a database **view**.
 
