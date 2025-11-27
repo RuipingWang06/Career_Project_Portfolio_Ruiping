@@ -5,7 +5,7 @@ In May 2022, I joined a large-scale operations project worth approximately **10 
 
 The goal was to consolidate all key business metrics into a **single, consistent dashboard** to enable faster, **data-driven decisions** and ensure that all **11 regional companies** used the same **metric definitions**.
 
-The dashboard contains **347 KPIs** covering essential real-estate performance indicators—such as **saleable inventory value**, **sell-through rate**, **supply-to-sales ratio**, **cash-collection rate**, and **profitability**—giving leaders a unified view to plan **future investments** and manage **cash flow** more effectively.
+The dashboard contains **347 KPIs** covering essential real-estate performance indicators, such as **saleable inventory value**, **sell-through rate**, **supply-to-sales ratio**, **cash-collection rate**, and **profitability** giving leaders a unified view to plan **future investments** and manage **cash flow** more effectively.
 
 ## **Report**
 https://www.upwork.com/freelancers/~014ef91c27a40c2a97?p=1976464142580060160
