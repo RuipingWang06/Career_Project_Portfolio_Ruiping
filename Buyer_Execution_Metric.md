@@ -1,4 +1,9 @@
 # **Buyer Execution Metric**
+## **Power BI with Mock-up data**
+<img width="1326" height="1071" alt="Cancel-showcase" src="https://github.com/user-attachments/assets/a714248e-692c-4585-b2bc-299f4d7d0f4c" />
+<img width="1326" height="1071" alt="PushOut-showcase" src="https://github.com/user-attachments/assets/01b1f3eb-a44e-4c5c-bc67-0e284a5e65ed" />
+<img width="1326" height="1071" alt="E O-showcase" src="https://github.com/user-attachments/assets/b8a07f57-3f0a-4355-99f1-2c43f765e4ef" />
+
 ## **Business Impact**
 
 Across 100+ Jabil plants, the lack of a **unified approach** to identify **urgent, unexecuted POs** caused **delivery delays**, **unnecessary purchases**, and recurring **multi-million-dollar losses**.
@@ -20,12 +25,6 @@ Finally, integrating **Power Apps** to capture **un-execution reasons** and disp
 
 ## **Room for Improvement**
 The report includes **six 13-week summary tables** and **six current-week detail tables**, along with several **bridge tables** to connect them. Because this creates a **complex data model**, it is more efficient to use the **TREATAS** **DAX** function to link the tables rather than building complicated **model relationships**.
-
-## **Power BI with Mock-up data**
-<img width="1326" height="1071" alt="Cancel-showcase" src="https://github.com/user-attachments/assets/a714248e-692c-4585-b2bc-299f4d7d0f4c" />
-<img width="1326" height="1071" alt="PushOut-showcase" src="https://github.com/user-attachments/assets/01b1f3eb-a44e-4c5c-bc67-0e284a5e65ed" />
-<img width="1326" height="1071" alt="E O-showcase" src="https://github.com/user-attachments/assets/b8a07f57-3f0a-4355-99f1-2c43f765e4ef" />
-
 ## **Power Query**
 <img width="885" height="372" alt="image" src="https://github.com/user-attachments/assets/273f4516-6b51-4066-9d33-ec8493b52fd8" />
 <img width="1337" height="721" alt="image" src="https://github.com/user-attachments/assets/264e2a67-a3a4-4c23-8b85-ac7389cfe7de" />
