@@ -7,7 +7,7 @@ To address this, we built a **global PO lifecycle model** that integrates **PRs*
 This solution **improved early-risk detection by 30–40%**, **reduced delays and excess spending**, **standardized workflows globally**, and strengthened **buyer accountability** through a Power App for logging un-execution reasons.
 
 # **Contribution**
-I served as the **Power BI developer** for this report, creating the visuals and independently implementing a **clickable KPI card** by researching new features. This made the report much more **user-friendly**, allowing users to filter with a **single click** instead of relying on right-pane filters. I also developed the necessary **DAX measures** to display the **selected KPI**, making it easier for users to understand what they are viewing.
+I served as the **Power BI developer** for this report. One key challenge was implementing a **clickable KPI card**, which I solved by researching and applying new Power BI features. This made the report much more **user-friendly**, allowing users to filter with a **single click** instead of relying on right-pane filters. I also created the necessary **DAX measures** to display the **selected KPI**, making it easier for users to understand what they are viewing.
 
 # **Lesson Learned**
 
