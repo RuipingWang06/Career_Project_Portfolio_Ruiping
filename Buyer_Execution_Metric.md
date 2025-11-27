@@ -13,7 +13,7 @@ I served as the **Power BI developer** for this report. One key challenge was im
 
 This project taught me the importance of combining **strong governance**, **user-centric design**, and **cross-system integration**. I learned the value of building a **standardized Power BI workflow**—using **embedded data sources**, **data-limit parameters**, and **workspace pipelines**—to accelerate development, improve **version control**, and avoid errors across **DEV**, **STG**, and **PRD**.
 
-I also realized that focusing on **usability details** such as **data periods**, **refresh dates**, **row counts**, **clickable KPI cards**, and **built-in user guides** can greatly increase **user adoption**.
+I also learned the importance of viewing the report from the **user’s perspective** and anticipating what information will help them understand it better. Beyond what users explicitly request, focusing on **usability details**,such as **data periods**, **refresh dates**, **row counts**, **clickable KPI cards**, and **built-in user guides**,can greatly improve clarity and increase **user adoption**.
 
 Finally, integrating **Power Apps** to capture **un-execution reasons** and displaying them across report pages made the **PO execution lifecycle** far more **transparent** and **efficient**.
 
