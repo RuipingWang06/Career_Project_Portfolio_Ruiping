@@ -1,4 +1,5 @@
-# **Business Impact**
+# **Free Cash Flow**
+## **Business Impact**
 
 The finance team at Jabil did not have a **unified** and **transparent** view of the full **PO-to-AP process**. Without visibility across **PO**, **GR**, **IR**, and **AP**, it was difficult to monitor **execution quality**, which resulted in **inefficient cash usage**, **delayed payments**, and repeated **multi-million-dollar financial losses**.
 
@@ -6,18 +7,18 @@ To solve this problem, we created an **integrated process framework** that **cle
 
 With this structure in place, we **improved cash utilization by 5–15%**, **shortened payment cycles by 10–20%**, **enhanced process stability**, and uncovered **major cost-saving opportunities** across the organization.
 
-# **Contribution**
+## **Contribution**
 As the **Power BI developer**, I collaborated with the **finance SMEs** to design the report based on their analytical habits and delivered the full development work. One key **challenge** was creating a **DAX measure** to dynamically display the **top three profit centers** by **GR amount** while grouping all remaining values as **"Other"**, updating automatically based on filters.
 
 I solved this by reaching out to **Power BI experts** in the community with a clear description of the **input**, **expected output**, and **mock data**, even under limited time. This experience helped me resolve the issue effectively and allowed me to build a strong **community relationship** that continues to support my career.
 
-# **Lesson learned**
+## **Lesson learned**
 
 One key lesson is that effective report design requires a **business-analysis mindset**. A clear, top-down structure—from **overall KPIs**, to **sub-categories**, **monthly trends**, **dimensional analysis**, and finally **detailed tables**—helps users understand the logic and **trace each value back to its source**, which is essential for building **trust** in the report.
 
 Another important lesson is the need to **confirm KPI definitions and dependencies early** with the business team. Many challenges come from the **underlying data**, and developers should not assume all logic is clear at the start. **Early alignment**, **assumption validation**, and **issue identification before UAT** are critical to ensuring **accuracy** and delivering a **reliable result**.
 
-# **Power BI with Mock-up data**
+## **Power BI with Mock-up data**
 <img width="810" height="448" alt="image" src="https://github.com/user-attachments/assets/6fa4c560-cf97-419b-9ed8-6888e3478f94" />
 <img width="810" height="448" alt="image" src="https://github.com/user-attachments/assets/e6e5bdcf-e875-4a52-9f94-133fb1242a54" />
 <img width="810" height="448" alt="image" src="https://github.com/user-attachments/assets/54cc2e95-7937-466c-a633-462f4eac809f" />
