@@ -7,7 +7,7 @@ To address this, we built a **global PO lifecycle model** that integrates **PRs*
 This solution **improved early-risk detection by 30–40%**, **reduced delays and excess spending**, **standardized workflows globally**, and strengthened **buyer accountability** through a Power App for logging un-execution reasons.
 
 # **Contribution**
-I serve as the Power BI developer in this report created the reports and figure out how to built a clickable KPI card myself and also create dax and design data modle
+I served as the **Power BI developer** for this report, creating the visuals and independently implementing a **clickable KPI card** by researching new features. This made the report much more **user-friendly**, allowing users to filter with a **single click** instead of relying on right-pane filters. I also developed the necessary **DAX measures** to display the **selected KPI**, making it easier for users to understand what they are viewing.
 
 # **Lesson Learned**
 
@@ -18,11 +18,16 @@ I also realized that focusing on **usability details** such as **data periods**,
 Finally, integrating **Power Apps** to capture **un-execution reasons** and displaying them across report pages made the **PO execution lifecycle** far more **transparent** and **efficient**.
 
 # **Room for Improvement**
+The report includes **six 13-week summary tables** and **six current-week detail tables**, along with several **bridge tables** to connect them. Because this creates a **complex data model**, it is more efficient to use the **TREATAS** **DAX** function to link the tables rather than building complicated **model relationships**.
 
 # **Power BI with Mock-up data**
-<img width="1135" height="801" alt="image" src="https://github.com/user-attachments/assets/45029085-4602-44ce-9a04-13cf0c537569" />
-<img width="1137" height="804" alt="image" src="https://github.com/user-attachments/assets/c5a8553b-b8d9-4073-bc12-7881dc0db13b" />
-<img width="1137" height="804" alt="image" src="https://github.com/user-attachments/assets/6bd8d0b0-ebe3-45c9-81bb-910f46cc631c" />
+<img width="1326" height="1071" alt="Cancel-showcase" src="https://github.com/user-attachments/assets/a714248e-692c-4585-b2bc-299f4d7d0f4c" />
+<img width="1326" height="1071" alt="PushOut-showcase" src="https://github.com/user-attachments/assets/01b1f3eb-a44e-4c5c-bc67-0e284a5e65ed" />
+<img width="1326" height="1071" alt="E O-showcase" src="https://github.com/user-attachments/assets/b8a07f57-3f0a-4355-99f1-2c43f765e4ef" />
+
+
+
+
 
 
 
