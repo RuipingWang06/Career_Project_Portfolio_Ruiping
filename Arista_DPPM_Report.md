@@ -14,7 +14,7 @@ e) Built an internal **Power BI dashboard** for stakeholders to monitor performa
 f) Created an external **paginated report** for Arista to support **traceability**.
 
 # **Lesson Learned**
-I learned the importance of validating **requirements** early and adjusting the reporting approach based on **data volume**—using **daily summary tables** instead of aggregating directly from detailed data.  
+I learned the importance of validating **requirements** early and adjusting the reporting approach based on **data volume** using **daily summary tables** instead of aggregating directly from detailed data.  
 I also realized that in a large organization, identifying the right people with the necessary **server permissions** is essential.  
 Clear **communication** and early **alignment** help prevent rework and ensure a reliable end-to-end solution.
 
