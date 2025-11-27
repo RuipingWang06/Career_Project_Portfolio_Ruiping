@@ -25,5 +25,5 @@ Clear **communication** and early **alignment** help prevent rework and ensure a
 # **SQL Link**
 https://github.com/RuipingWang06/Legacy_MES_Arista_DPPM/blob/main/sql/usp_GenerateDPPMReport.sql
 
-# **Detail link**
+# **Project Detail link**
 [https://github.com/RuipingWang06/Legacy_MES_Arista_DPPM/blob/main/README.md](https://github.com/RuipingWang06/Legacy_MES_Arista_DPPM/tree/main)
