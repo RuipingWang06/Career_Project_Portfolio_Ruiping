@@ -1,4 +1,4 @@
-#**3510 Work Lot Detail (HU Listing with Sublot Sort)**
+# **3510 Work Lot Detail (HU Listing with Sublot Sort)**
 # **Background**
 
 This requirement came from a **Tableau-to-Power BI migration** project.  
