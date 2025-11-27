@@ -1,4 +1,4 @@
-# **Project Impact**
+# **Project Background**
 This project improves visibility and governance across **1,000+ Power BI reports** by enabling proactive monitoring of **usage**, **performance**, and **best-practice compliance**. We built an **Azure-hosted Docker pipeline** where **Python** extracts metadata through **Microsoft AIP**, loads it into **AWS S3**, and feeds **Snowflake models** that power centralized analytics dashboards.
 
 # **Contribution**
