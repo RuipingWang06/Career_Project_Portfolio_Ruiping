@@ -25,6 +25,14 @@ The report includes **six 13-week summary tables** and **six current-week detail
 <img width="1326" height="1071" alt="PushOut-showcase" src="https://github.com/user-attachments/assets/01b1f3eb-a44e-4c5c-bc67-0e284a5e65ed" />
 <img width="1326" height="1071" alt="E O-showcase" src="https://github.com/user-attachments/assets/b8a07f57-3f0a-4355-99f1-2c43f765e4ef" />
 
+# **Power Query**
+<img width="885" height="372" alt="image" src="https://github.com/user-attachments/assets/273f4516-6b51-4066-9d33-ec8493b52fd8" />
+<img width="1337" height="721" alt="image" src="https://github.com/user-attachments/assets/264e2a67-a3a4-4c23-8b85-ac7389cfe7de" />
+<img width="1046" height="696" alt="image" src="https://github.com/user-attachments/assets/caa23336-1adf-4f49-977e-a5829b6f5d91" />
+
+
+
+
 
 
 
