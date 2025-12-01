@@ -1,4 +1,5 @@
 # **3510 Work Lot Detail (HU Listing with Sublot Sort)**
+<img width="1369" height="889" alt="image" src="https://github.com/user-attachments/assets/36e442c9-9836-4a7e-96bf-63633e0953b7" />
 
 ## **Background**
 This requirement originated from a **Tableau-to-Power BI migration** initiative where the logistics team needed a report that could be **printed reliably** without the risk of data being altered in exported files.  
@@ -6,6 +7,12 @@ To meet this need, we implemented the solution as a **paginated report**, which 
 
 The report had to be built on a shared **semantic model** to keep all business logic **centralized** across multiple summary reports. However, the model included **M parameters** in Power Query—functioning like **stored procedures**—and there was **no existing guidance** on how to integrate paginated reports with this architecture.  
 I ultimately **designed and solved the technical approach independently**, enabling the report to run correctly without breaking model dependencies.
+
+## **Tasks**
+As the report developer, I was responsible for building the **paginated report** and resolving the **technical challenges** throughout the development process.
+
+## **Challenges**
+A key challenge in this project was building a paginated report on a **Power BI semantic model** that used **M parameters**, an architecture with **no available online documentation**. To solve this, I worked closely with **Microsoft Support**, opening **three support tickets** and collaborating with **five engineers** over two weeks, while also conducting extensive independent research. 
 
 ## **Impact**
 - Ensured **100% accurate data** for the **logistics team**, eliminating risks caused by Excel modifications.  
@@ -16,9 +23,9 @@ I ultimately **designed and solved the technical approach independently**, enabl
 
 ## **Lesson learned**
 
-I learned how to build a paginated report on top of a **Power BI semantic model** using **M parameters** through close collaboration with **Microsoft Support**. Over two weeks, I opened **three support tickets**, worked with **five engineers**, and independently investigated the underlying concepts. Since no online solution existed, the final approach came from both **support escalation** and **independent problem-solving**, highlighting the importance of **persistence** and **deep technical investigation**.
+The experience taught me the value of **persistence**, **systematic troubleshooting**, and **deep technical investigation**. It reinforced that when facing undocumented scenarios, combining **support escalation** with **independent problem-solving** is essential to delivering a reliable solution.
 
-<img width="1369" height="889" alt="image" src="https://github.com/user-attachments/assets/36e442c9-9836-4a7e-96bf-63633e0953b7" />
+
 
 # **HUA Yield**
 ## **Project Background**
