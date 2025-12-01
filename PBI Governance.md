@@ -7,6 +7,7 @@ These dashboards enable proactive monitoring of **usage**, **performance**, and 
 # **Tasks**
 As a **Python/ETL developer**, I delivered 3 **Python** and 20 **ETL SQL scripts**, contributed to **data model design standards**, and helped establish **Snowflake development workflows** and **stored-procedure best practices**.
 
+# **Scripts**
 **Python Script:** Triggered the AIP process to extract and deliver metadata into AWS S3.
 <img width="1390" height="1008" alt="image" src="https://github.com/user-attachments/assets/d7fb4a95-2b4c-432d-b8c4-31798198d66b" />
 
