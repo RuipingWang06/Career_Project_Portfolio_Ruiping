@@ -1,11 +1,18 @@
 # **3510 Work Lot Detail (HU Listing with Sublot Sort)**
+
 ## **Background**
+This requirement originated from a **Tableau-to-Power BI migration** initiative where the logistics team needed a report that could be **printed reliably** without the risk of data being altered in exported files.  
+To meet this need, we implemented the solution as a **paginated report**, which supports **direct printing**, avoiding the common Excel-based workflow that can introduce **data integrity issues**.
 
-This requirement came from a **Tableau-to-Power BI migration** project.  
-We built the report as a **paginated report** rather than a standard Power BI table because paginated reports can be **printed directly**. In contrast, Power BI tables must be **exported to Excel** for printing, which creates a risk of **data changes** if users modify the file.  
-Building the paginated report also ensured **100% accurate data** for the **logistics team**, enabling them to verify **item deliveries** at the **plant** without Excel-related risks.
+The report had to be built on a shared **semantic model** to keep all business logic **centralized** across multiple summary reports. However, the model included **M parameters** in Power Query—functioning like **stored procedures**—and there was **no existing guidance** on how to integrate paginated reports with this architecture.  
+I ultimately **designed and solved the technical approach independently**, enabling the report to run correctly without breaking model dependencies.
 
-We built the report on the **semantic model** to keep the logic **centralized**, since the model is shared by other summary reports. However, this introduced a new **challenge**: the semantic model contains **M parameters** in Power Query, which function like **stored procedures**. Because no online solution existed for creating a paginated report in this setup, I had to **solve the problem independently**.
+## **Impact**
+- Ensured **100% accurate data** for the **logistics team**, eliminating risks caused by Excel modifications.  
+- Enabled reliable **item-delivery verification** at the **plant**, improving operational accuracy.  
+- Maintained a **centralized semantic model**, preserving consistent business logic across related reports.  
+- Delivered a **scalable, supportable solution** in a setup where no online documentation existed.  
+- Reduced manual work and prevented recurring **data-quality issues**, strengthening governance during the migration.
 
 ## **Lesson learned**
 
