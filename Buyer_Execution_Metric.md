@@ -13,6 +13,7 @@ This solution **improved early-risk detection by 30–40%**, **reduced delays an
 
 ## **Tasks**
 I served as the **Power BI developer** for this report, responsible for **UI/UX and layout design**, **DAX**, **data modeling**, and **Power Query** development.  
+
 I also led **report validation**, resolved key **technical challenges**, and built a **Power App** that allows users to log the **reasons for non-execution**.
 
 ## **Challenge**
