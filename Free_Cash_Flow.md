@@ -11,7 +11,7 @@
 <img width="810" height="448" alt="image" src="https://github.com/user-attachments/assets/7d79e8a0-cb4d-428f-9954-83e4ceff0232" />
 <img width="810" height="448" alt="image" src="https://github.com/user-attachments/assets/861e6fbc-f176-477e-83d3-14c07b913e6b" />
 
-## **Project Background**
+## **Background & Impact**
 The finance team at Jabil did not have a **unified** and **transparent** view of the full **PO-to-AP process**. Without visibility across **PO**, **GR**, **IR**, and **AP**, it was difficult to monitor **execution quality**, which resulted in **inefficient cash usage**, **delayed payments**, and repeated **multi-million-dollar financial losses**.
 
 To solve this problem, we created an **integrated process framework** that **clearly defined** each step **end-to-end** and provided **data-driven insights** at every stage.
