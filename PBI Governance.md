@@ -1,5 +1,8 @@
 # **Background**
-This project improves visibility and governance across **1,000+ Power BI reports** by enabling proactive monitoring of **usage**, **performance**, and **best-practice compliance**. We built an **Azure-hosted Docker pipeline** where **Python** extracts metadata through **Microsoft AIP**, loads it into **AWS S3**, and feeds **Snowflake models** that power centralized analytics dashboards.
+**This ongoing project improves visibility and governance across more than *1,000 Power BI reports* at Jabil.**  
+We built an **Azure-hosted Docker pipeline** where **Python** extracts metadata via **Microsoft AIP**, loads it into **AWS S3**, and integrates it into **Snowflake models** to support centralized analytics.
+
+These dashboards enable proactive monitoring of **usage**, **performance**, and **best-practice compliance**, helping identify **non-compliant workspaces**, diagnose **root-cause issues**, and drive **developer optimization**.
 
 # **Tasks**
 As a **Python/ETL developer**, I delivered 3 **Python** and 20 **ETL SQL scripts**, contributed to **data model design standards**, and helped establish **Snowflake development workflows** and **stored-procedure best practices**.
