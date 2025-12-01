@@ -29,6 +29,66 @@ Finally, integrating **Power Apps** to capture **un-execution reasons** and disp
 ## **Room for Improvement**
 The report includes **six 13-week summary tables** and **six current-week detail tables**, along with several **bridge tables** to connect them. Because this creates a **complex data model**, it is more efficient to use the **TREATAS** **DAX** function to link the tables rather than building complicated **model relationships**.
 
+## **PO Status / KPI Definition**
+### **PO Status**
+- **Purchase Request (PR)** is the first step before creating a Purchase Order — it shows what materials or services are being requested but not yet ordered.
+- **Past Due** means the PO should have been delivered already, but it’s still not received or closed.
+- **Pushout PO** are orders that have been delayed to a later delivery date, usually to balance inventory or adjust to lower demand.
+- **Cancel POs** are orders that are no longer needed and have been officially canceled before delivery.
+- **Pull-in PO** are orders where buyers ask suppliers to deliver earlier than the original schedule.
+- **E&O Reason Code** shows why certain materials became excess or obsolete, helping to identify and prevent waste.
+  
+### **Cancel Execution KPI**
+
+**Total Cancel Actions**
+- **Definition:**  
+The total number of **MRP delivery lines (PO schedule lines)** identified on **Monday’s baseline** that require cancellation.  
+These are lines where:  
+`MRP Exception Message = 20 (Cancel process)` or `21 (Cancel: demand beyond lead time)`
+Excludes deleted PO line items and lines with `Open Quantity = 0`
+- **Purpose:**  
+Represents the total population of cancel opportunities for the week.
+
+**Executable Demand Beyond LT**
+- **Definition:**  
+MRP lines where:  
+MRP Delivery Date > Current Date + Cancel LT + 8 days
+AND Exception Message = 21
+- **Purpose:**  
+Captures orders where demand exists **beyond the lead time window** — cancellation is technically possible but not urgent.
+
+**Week 1 Priority**
+- **Definition:**  
+Displayed together on the dashboard card but split in tables and trends.
+MRP Delivery Date between (Current Date + Cancel LT)
+and (Current Date + Cancel LT + 8 days)
+- **Executable Cancel No Demand**  
+Exception Message = 20
+- **Purpose:**  
+Identifies short-term or immediate cancellation actions that should be prioritized by buyers.
+
+**Inside Cancel LT**
+- **Definition:**  
+MRP Delivery Date < Current Date + Cancel LT
+AND Cancel LT < Order LT
+- **Purpose:**  
+Represents orders **inside the cancellation lead time**, where suppliers may already have started production or shipment.
+
+**NCNR (Non-Cancelable / Non-Returnable)**
+- **Definition:**  
+MRP Delivery Date < Current Date + Cancel LT
+AND Cancel LT ≥ Order LT
+- **Purpose:**  
+Captures items marked as **non-cancelable and non-returnable** per supplier agreements. Usually excluded from performance metrics.
+
+**Un-Executed**
+- **Definition:**  
+Cancel actions still pending at the end of the week (**Sunday**), where:  
+Exception Message = 20 or 21
+AND none of the other result conditions (Received, Partial Received, Cancelled, Cancel Not Allowed, Not Needed) are met
+- **Purpose:**  
+Indicates cancellation requests that remain **unexecuted** or **pending buyer action**.
+
 ## **Power Query**
 <img width="885" height="372" alt="image" src="https://github.com/user-attachments/assets/273f4516-6b51-4066-9d33-ec8493b52fd8" />
 <img width="1337" height="721" alt="image" src="https://github.com/user-attachments/assets/264e2a67-a3a4-4c23-8b85-ac7389cfe7de" />
