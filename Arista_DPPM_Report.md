@@ -1,4 +1,4 @@
-# **Business Impact**
+# **Background**
 This project gave Arista clear visibility into how their **materials** were used and where **defects** occurred, enabling them to analyze failures and improve their **supply strategy**.
 
 # **Contribution**
