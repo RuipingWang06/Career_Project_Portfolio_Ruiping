@@ -12,7 +12,6 @@
 <img width="810" height="448" alt="image" src="https://github.com/user-attachments/assets/861e6fbc-f176-477e-83d3-14c07b913e6b" />
 
 ## **Project Background**
-
 The finance team at Jabil did not have a **unified** and **transparent** view of the full **PO-to-AP process**. Without visibility across **PO**, **GR**, **IR**, and **AP**, it was difficult to monitor **execution quality**, which resulted in **inefficient cash usage**, **delayed payments**, and repeated **multi-million-dollar financial losses**.
 
 To solve this problem, we created an **integrated process framework** that **clearly defined** each step **end-to-end** and provided **data-driven insights** at every stage.
@@ -20,7 +19,8 @@ To solve this problem, we created an **integrated process framework** that **cle
 With this structure in place, we **improved cash utilization by 5–15%**, **shortened payment cycles by 10–20%**, **enhanced process stability**, and uncovered **major cost-saving opportunities** across the organization.
 
 ## **Tasks**
-As the **Power BI developer**, I collaborated with the **finance SMEs** to design the report based on their analytical habits and delivered the full development work.
+- As the **Power BI developer**, I partnered with the **finance SMEs** to design the report around their analytical workflows and delivered the full **BI development** scope, including **layout/UI/UX**, **data modeling**, **table structures**, **Power Query**, and **DAX**.  
+- I also took on **business analyst** responsibilities by writing **SQL scripts** to validate data consistency and ensure value alignment across report pages, and I collaborated with the **Snowflake developers** to troubleshoot and resolve **SQL view issues**.
 
 ## **Challenge**
 One key **challenge** was creating a **DAX measure** to dynamically display the **top three profit centers** by **GR amount** while grouping all remaining values as **"Other"**, updating automatically based on filters.
@@ -28,7 +28,6 @@ One key **challenge** was creating a **DAX measure** to dynamically display the 
 I solved this by reaching out to **Power BI experts** in the community with a clear description of the **input**, **expected output**, and **mock data**, even under limited time. This experience helped me resolve the issue effectively and allowed me to build a strong **community relationship** that continues to support my career.
 
 ## **Lesson learned**
-
 One key lesson is that effective report design requires a **business-analysis mindset**. A clear, top-down structure—from **overall KPIs**, to **sub-categories**, **monthly trends**, **dimensional analysis**, and finally **detailed tables**—helps users understand the logic and **trace each value back to its source**, which is essential for building **trust** in the report.
 
 Another important lesson is the need to **confirm KPI definitions and dependencies early** with the business team. Many challenges come from the **underlying data**, and developers should not assume all logic is clear at the start. **Early alignment**, **assumption validation**, and **issue identification before UAT** are critical to ensuring **accuracy** and delivering a **reliable result**.
