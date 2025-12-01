@@ -3,7 +3,7 @@
 <img width="1845" height="1230" alt="image" src="https://github.com/user-attachments/assets/5e9bad8f-cb9e-415e-8813-360920d22bd6" />
 
 # **Background**
-This project gave Arista clear visibility into how their **materials** were used and where **defects** occurred, enabling them to analyze failures and improve their **supply strategy**.
+This project gave our vendor Arista clear visibility into how their **materials** were used and where **defects** occurred, enabling them to analyze failures and improve their **supply strategy**.
 
 # **Tasks**
 1) Acted as both a **Power BI developer** and **data engineer**, collaborating with site BAs, outsourced developers, the QA manager, the project manager, and the global SQL Server admin.  
