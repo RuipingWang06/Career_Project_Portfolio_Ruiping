@@ -8,12 +8,18 @@
 
 Across 100+ Jabil plants, the lack of a **unified approach** to identify **urgent, unexecuted POs** caused **delivery delays**, **unnecessary purchases**, and recurring **multi-million-dollar losses**.
 
-To address this, we built a **global PO lifecycle model** that integrates **PRs**, **Push-outs**, **Pull-ins**, **Cancellations**, **E&O classifications**, and **Past-Due POs**, providing **end-to-end visibility** across the entire process.
+To address this, we built a **global PO lifecycle model** that integrates **PRs**, **Push-outs**, **Pull-ins**, **Cancellations**, **E&O**, and **Past-Due POs**, providing **end-to-end visibility** across the entire process.
 
 This solution **improved early-risk detection by 30–40%**, **reduced delays and excess spending**, **standardized workflows globally**, and strengthened **buyer accountability** through a Power App for logging un-execution reasons.
 
-## **Contribution**
-I served as the **Power BI developer** for this report. One key challenge was implementing a **clickable KPI card**, which I solved by researching and applying new Power BI features. This made the report much more **user-friendly**, allowing users to filter with a **single click** instead of relying on right-pane filters. I also created the necessary **DAX measures** to display the **selected KPI**, making it easier for users to understand what they are viewing.
+## **Tasks**
+I served as the **Power BI developer** for this report. 
+1) Resiposible for the layout and UI/UX design, Dax, Data Model and Power Query development
+2) Report validation
+3) Figure out the challenge
+
+## **Challenge**
+One key challenge was implementing a **clickable KPI card**, which I solved by researching and applying new Power BI features. This made the report much more **user-friendly**, allowing users to filter with a **single click** instead of relying on right-pane filters. I also created the necessary **DAX measures** to display the **selected KPI**, making it easier for users to understand what they are viewing.
 
 ## **Lesson Learned**
 
