@@ -18,7 +18,7 @@ I learned how to build a paginated report on top of a **Power BI semantic model*
 
 In our organization, the standard approach to developing **paginated reports** is to use **expressions**, which function similarly to a **stored procedure**. We also build paginated reports on top of a **semantic model**, which works like a database **view**.
 
-From my previous experience at **Mingyuan**, where we developed **SSRS reports** using **stored procedures**, I was already familiar with this workflow and could adapt quickly.
+From my experience at **Mingyuan**, where we developed **SSRS reports** using **stored procedures**, I was already familiar with this workflow and could adapt quickly.
 
 <img width="1720" height="747" alt="image" src="https://github.com/user-attachments/assets/658620b4-91a1-460c-8bf4-28399bcb31d3" />
 
