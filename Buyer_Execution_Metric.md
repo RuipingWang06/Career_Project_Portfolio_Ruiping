@@ -4,7 +4,7 @@
 <img width="1326" height="1071" alt="PushOut-showcase" src="https://github.com/user-attachments/assets/01b1f3eb-a44e-4c5c-bc67-0e284a5e65ed" />
 <img width="1326" height="1071" alt="E O-showcase" src="https://github.com/user-attachments/assets/b8a07f57-3f0a-4355-99f1-2c43f765e4ef" />
 
-## **Project Background**
+## **Background & Impact**
 Across 100+ Jabil plants, the lack of a **unified approach** to identify **urgent, unexecuted POs** caused **delivery delays**, **unnecessary purchases**, and recurring **multi-million-dollar losses**.
 
 To address this, we built a **global PO lifecycle model** that integrates **PRs**, **Push-outs**, **Pull-ins**, **Cancellations**, **E&O**, and **Past-Due POs**. We also introduced a **bucketization logic** based on **MRP Delivery Date** and **lead time** to identify urgency, and defined clear **PO status stages** to provide **end-to-end visibility** across the entire process.
