@@ -1,11 +1,11 @@
 # **Major Operation**
-## **Project Background**
+## **Background**
 
-In May 2022, I joined a large-scale operations project worth approximately **10 million RMB**, the largest initiative of the year for our **Shanghai branch**. The project included both **ERP system upgrades** and **BI report development**.
+This was the largest project in 2022 at the Mingyuan **Shanghai branch** for our client **Poly**. The scope included both an **ERP system upgrade** and **BI report development**.
 
-The goal was to consolidate all key business metrics into a **single, consistent dashboard** to enable faster, **data-driven decisions** and ensure that all **11 regional companies** used the same **metric definitions**.
+The objective was to consolidate critical business metrics from **four ERP systems** (Sales, Cost, Planning, and Master Data) plus manual inputs into a **single, consistent dashboard**. This allowed all **11 regional companies** to use unified **metric definitions** and make faster, **data-driven decisions**.
 
-The dashboard contains **347 KPIs** covering essential real-estate performance indicators, such as **saleable inventory value**, **sell-through rate**, **supply-to-sales ratio**, **cash-collection rate**, and **profitability** giving leaders a unified view to plan **future investments** and manage **cash flow** more effectively.
+The final dashboard delivered **347 KPIs** covering key real-estate performance metrics—including **saleable inventory value**, **sell-through rate**, **supply-to-sales ratio**, **cash-collection rate**, and **profitability**—providing leadership with a unified view to guide **investment planning** and improve **cash-flow management**.
 
 ## **Report**
 https://www.upwork.com/freelancers/~014ef91c27a40c2a97?p=1976464142580060160
