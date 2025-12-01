@@ -1,5 +1,5 @@
 # **Background**
-**This ongoing project is to improve visibility and governance across more than *1,000 Power BI reports* at Jabil.**  
+This ongoing project is to improve visibility and governance across more than **1,000 Power BI reports** at Jabil. 
 We built an **Azure-hosted Docker pipeline** where **Python** extracts metadata via **Microsoft AIP**, loads it into **AWS S3**, and integrates it into **Snowflake models** to support centralized analytics.
 
 These dashboards enable proactive monitoring of **usage**, **performance**, and **best-practice compliance**, helping identify **non-compliant workspaces**, diagnose **root-cause issues**, and drive **developer optimization**.
