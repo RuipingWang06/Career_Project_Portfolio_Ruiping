@@ -19,8 +19,11 @@ To solve this problem, we created an **integrated process framework** that **cle
 
 With this structure in place, we **improved cash utilization by 5–15%**, **shortened payment cycles by 10–20%**, **enhanced process stability**, and uncovered **major cost-saving opportunities** across the organization.
 
-## **Contribution**
-As the **Power BI developer**, I collaborated with the **finance SMEs** to design the report based on their analytical habits and delivered the full development work. One key **challenge** was creating a **DAX measure** to dynamically display the **top three profit centers** by **GR amount** while grouping all remaining values as **"Other"**, updating automatically based on filters.
+## **Tasks**
+As the **Power BI developer**, I collaborated with the **finance SMEs** to design the report based on their analytical habits and delivered the full development work.
+
+## **Challenge**
+One key **challenge** was creating a **DAX measure** to dynamically display the **top three profit centers** by **GR amount** while grouping all remaining values as **"Other"**, updating automatically based on filters.
 
 I solved this by reaching out to **Power BI experts** in the community with a clear description of the **input**, **expected output**, and **mock data**, even under limited time. This experience helped me resolve the issue effectively and allowed me to build a strong **community relationship** that continues to support my career.
 
