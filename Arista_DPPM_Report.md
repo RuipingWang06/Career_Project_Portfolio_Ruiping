@@ -1,4 +1,4 @@
-# **Pagined Report & Power BI report**
+# **Arista_DPPM**
 <img width="704" height="1029" alt="image" src="https://github.com/user-attachments/assets/215ab968-9eac-4516-b6ca-dcd683862c46" />
 <img width="468" height="1124" alt="Subscribe_pagainated_report_weekly" src="https://github.com/user-attachments/assets/a499b373-18cf-4245-90f6-5ffd19ddea99" />
 
