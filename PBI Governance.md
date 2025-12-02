@@ -9,7 +9,16 @@ As a **Python/ETL developer**, I delivered 3 **Python** and 20 **ETL SQL scripts
 
 # **Code Snippet**
 
-[Landing_snowpipe](https://github.com/RuipingWang06/PBIGOV_Migration/blob/main/doc/snowflake/code_snippet/landing_snowpipe%20(json%20data).md)
+- [landing_config](https://github.com/RuipingWang06/Career_Project_Portfolio_Ruiping/blob/main/code_snippet/landing_config.md)
+- [Landing_snowpipe](https://github.com/RuipingWang06/Career_Project_Portfolio_Ruiping/blob/main/code_snippet/landing_snowpipe%20(json%20data).md)
+- [landing_stream](https://github.com/RuipingWang06/Career_Project_Portfolio_Ruiping/blob/main/code_snippet/landing_stream.md)
+- [landing_task](https://github.com/RuipingWang06/Career_Project_Portfolio_Ruiping/blob/main/code_snippet/landing_task.md)
+- [conformed_config](https://github.com/RuipingWang06/Career_Project_Portfolio_Ruiping/blob/main/code_snippet/conformed_config.md)
+- [conformed_stream](https://github.com/RuipingWang06/Career_Project_Portfolio_Ruiping/blob/main/code_snippet/conformed_stream.md)
+- [confromed_procedure](https://github.com/RuipingWang06/Career_Project_Portfolio_Ruiping/blob/main/code_snippet/confromed_procedure.md)
+- [confromed_task](https://github.com/RuipingWang06/Career_Project_Portfolio_Ruiping/blob/main/code_snippet/confromed_task.md)
+- [confromed_view](https://github.com/RuipingWang06/Career_Project_Portfolio_Ruiping/blob/main/code_snippet/confromed_view.md)
+- [pbigov_table](https://github.com/RuipingWang06/Career_Project_Portfolio_Ruiping/blob/main/code_snippet/pbigov_table.md)
 
 # **Scripts**
 
