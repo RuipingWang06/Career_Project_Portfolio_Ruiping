@@ -3,7 +3,7 @@
 ## Set up M parameter
 
 ### ServerName
-"Server url" meta [IsParameterQuery=true, List={"dsn=SnowflakeDEV", "dsn=SnowflakeSTG_SN", "dsn=SnowflakePRD_SN", "Server url"}, DefaultValue="Server url", Type="Text", IsParameterQueryRequired=true]
+"Server url" meta [IsParameterQuery=true, List={"dsn=SnowflakeDEV", "dsn=SnowflakeSTG", "dsn=SnowflakePRD", "Server url"}, DefaultValue="Server url", Type="Text", IsParameterQueryRequired=true]
 
 
 # Data Model 
