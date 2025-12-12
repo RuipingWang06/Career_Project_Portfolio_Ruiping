@@ -44,6 +44,10 @@ FROM
 "
 ```
 
+## Query Table
+```
+Value.NativeQuery(Snowflake.Databases(ServerName,Warehouse,[Role=Role]){[Name=Database]}[Data], #"SQL_Query", null, [EnableFolding=true])
+```
 ## 
 
 # Data Model 
