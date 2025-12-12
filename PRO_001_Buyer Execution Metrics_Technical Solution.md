@@ -90,3 +90,14 @@ Cancellation Execution % =
 				    __Result
 				
 ```
+
+```
+Sorted Cancellation Execution = 
+				
+				 IF(
+				    ISINSCOPE(Cancellation[Snapshot Date]),
+				    [Cancellation Execution %],
+				    CALCULATE([Cancellation Execution %],Cancellation[Snapshot Date]=max(Cancellation[Snapshot Date])
+				    )
+				    
+```
