@@ -101,3 +101,12 @@ Sorted Cancellation Execution =
 				    )
 				    
 ```
+```
+Last Week Partial Received (Week1 and No Demand) =
+				
+				CALCULATE (
+					SUM(Cancellation[Partial Received])
+					,Cancellation[Priority Bucket] = 2 || Cancellation[Priority Bucket] = 3
+				    ,Cancellation[Snapshot Date]=MAX(Cancellation[Snapshot Date])
+					)+0
+```
