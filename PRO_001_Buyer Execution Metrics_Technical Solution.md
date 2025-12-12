@@ -21,11 +21,11 @@
 ```
 "
 SELECT " & (if #"DataLimit" = null then "" else " TOP " & #"DataLimit" & "") & "
-	PLANTCODE								AS ""Plant key"",
+	Plant key								AS ""Plant key"",
 	Snapshot Date Key						AS ""Snapshot Date Key"",
 	Buyer Key								AS ""Buyer Key"",
 	Profit center Key						AS ""Profit center Key"",
-	                   
+	Columns                   
 FROM
 	SAP.V_View
 "
