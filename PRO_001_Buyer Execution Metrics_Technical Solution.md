@@ -18,6 +18,7 @@
 "100" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=false]
 
 ### SQL_Query
+```
 "
 SELECT " & (if #"DataLimit" = null then "" else " TOP " & #"DataLimit" & "") & "
 	PLANTCODE								AS ""Plant key"",
@@ -28,7 +29,7 @@ SELECT " & (if #"DataLimit" = null then "" else " TOP " & #"DataLimit" & "") & "
 FROM
 	SAP.V_View
 "
-
+```
 
 # Data Model 
 
