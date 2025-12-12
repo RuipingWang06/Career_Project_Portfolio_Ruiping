@@ -56,3 +56,37 @@ Value.NativeQuery(Snowflake.Databases(ServerName,Warehouse,[Role=Role]){[Name=Da
 <img width="1551" height="800" alt="image" src="https://github.com/user-attachments/assets/810115fc-6905-4630-bae1-39edd9f09663" />
 
 # Dax
+
+```
+Select Filter = 
+				
+				IF(
+				    ISBLANK(SELECTEDVALUE(Cancellation_Details[Priority Text])),
+				    IF(
+				        CONCATENATEX(
+				            DISTINCT(Cancellation_Details[Is Un-executed (New)]),
+				            [Is Un-executed (New)]
+				        ) = "TRUE",
+				        "Un-Executed",
+				        "Show all Details"
+				        ),    
+				    SELECTEDVALUE(Cancellation_Details[Priority Text]) 
+				    & SELECTEDVALUE(Cancellation_Details[Result Text])
+				)
+```
+
+```
+Cancellation Execution % = 
+				
+				VAR __TotalCancels =
+				    [Total Cancels (Inside)] +
+				    [Total Cancels (No Demand)] +
+				    [Total Cancels (Week1)] +
+				    [Total Cancels (NCNR)]
+				VAR __Unexecuted = [Un-executed (New)]
+				VAR __Rate = DIVIDE(__Unexecuted, __TotalCancels, 0)
+				VAR __Result = 1 - __Rate
+				RETURN
+				    __Result
+				
+```
