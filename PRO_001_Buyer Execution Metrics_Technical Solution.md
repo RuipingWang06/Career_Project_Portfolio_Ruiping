@@ -12,7 +12,7 @@
 "DEV_BI" meta [IsParameterQuery=true, List={"DEV", "DEV_BI", "STG", "PRD"}, DefaultValue="DEV_BI", Type="Text", IsParameterQueryRequired=true]
 
 ### Role
-"****_D_BI" meta [IsParameterQuery=true, List={"****_D_BI", "****_S_BI", "****_P_BI"}, DefaultValue=..., Type="Text", IsParameterQueryRequired=true]
+"xxxx_D_BI" meta [IsParameterQuery=true, List={"xxxx_D_BI", "xxxx_S_BI", "xxxx_P_BI"}, DefaultValue=..., Type="Text", IsParameterQueryRequired=true]
 
 ### SQL_Query
 
