@@ -55,6 +55,10 @@ Value.NativeQuery(Snowflake.Databases(ServerName,Warehouse,[Role=Role]){[Name=Da
 
 # Data Model 
 
+Summary Fact table * : 1 Dimention table 1 ：* Detail Fact table
+
+Summary Fact table * : 1 Bridge table 1 ：* Detail Fact table
+
 <img width="1551" height="800" alt="image" src="https://github.com/user-attachments/assets/810115fc-6905-4630-bae1-39edd9f09663" />
 
 # Dax
