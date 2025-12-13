@@ -90,7 +90,7 @@ RETURN
 **Select Filter**
 
 This measure dynamically generates a filter label based on user selections.
-It detects whether a priority is selected and whether the view is limited to unexecuted items, then displays a clear, user-friendly description of the current filter context
+It detects whether a priority is selected and whether the view is limited to unexecuted items, then displays a clear, user-friendly description of **the current filter context**.
 
 ```
 CONCATENATEX
@@ -113,8 +113,8 @@ IF (
 
 **Sorted Cancellation Execution**
 
-When a measure is used for sorting, ISINSCOPE ensures that row-level values and total-level logic are handled separately, 
-preventing total calculations from overriding the values used to rank individual rows
+When a measure is used for sorting, **ISINSCOPE** ensures that **row-level** values and total-level logic are handled separately, 
+preventing total calculations from overriding the values used to rank individual rows.
 
 ```
 ISINSCOPE
@@ -132,7 +132,8 @@ IF(
 
 **Last Week Partial Received (Week1 and No Demand)**
 
-I add + 0 to force BLANK results to zero, which ensures consistent numeric output for KPIs, sorting, and conditional formatting.
+I add **+ 0** to force BLANK results to zero, which ensures consistent numeric output for KPIs, sorting, and conditional formatting.
+
 ```
 Last Week Partial Received (Week1 and No Demand) =
 CALCULATE (
