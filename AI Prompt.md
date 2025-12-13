@@ -22,6 +22,10 @@ Now, act as the hiring manager for this role. You're extremely busy and only hav
 
 Help me turn this sentence into a concise, technical for a BI portfolio the Business problem part. Make it clear, logic and focused on What business problem were they facing? Why was a BI solution needed? What would be the consequences if the problem was not solved? return bullet point . Here is the sentence I draft. Please rewrite it as the hire manager can understand the Business Problem in 3 second.
 
+- **BI portfolio (Buiness impact) ready prompt**
+  
+Help me turn this sentence into a concise, technical for a BI portfolio the Buiness impact part. Make it clear, logic and measure the result, return bullet point with keyward highlight. Here is the sentence I draft. Please rewrite it as the hire manager can understand the Business Problem in 3 second.
+
 - **BI portfolio (key takeways) ready prompt**
   
 Help me turn this sentence into a concise, technical for a BI portfolio the Key takeway part. Make it clear, logic and focused on what you learnt from the project? return bullet point with keyward highlight. Here is the sentence I draft. Please rewrite it as the hire manager can understand the Business Problem in 3 second.
