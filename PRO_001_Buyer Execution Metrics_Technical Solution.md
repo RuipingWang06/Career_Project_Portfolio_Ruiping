@@ -63,7 +63,11 @@ Summary Fact table * : 1 Bridge table 1 ：* Detail Fact table
 
 # Dax
 
+This measure dynamically generates a filter label based on user selections.
+It detects whether a priority is selected and whether the view is limited to unexecuted items, then displays a clear, user-friendly description of the current filter context
+
 ```
+**CONCATENATEX** 
 Select Filter =
 IF (
     ISBLANK ( SELECTEDVALUE ( Cancellation_Details[Priority Text] ) ),
