@@ -1,6 +1,6 @@
 # Power Query
 
-Configured Power Query (M) parameters to enable one-click **data source switching** across all tables and automatic environment updates (DEV / STG / PRD) during report deployment through Power BI pipelines, once the parameters are configured in the service
+Configured Power Query (M) parameters to enable one-click **data source switching** across all tables and automatic environment updates (DEV / STG / PRD) during **report deployment** through Power BI pipelines, once the parameters are configured in the service
 
 ## Set up M parameter & SQL_Query
 
