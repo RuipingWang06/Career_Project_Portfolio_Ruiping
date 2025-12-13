@@ -63,33 +63,13 @@ Summary Fact table * : 1 Bridge table 1 ：* Detail Fact table
 
 # Dax
 
-This measure dynamically generates a filter label based on user selections.
-It detects whether a priority is selected and whether the view is limited to unexecuted items, then displays a clear, user-friendly description of the current filter context
-
-**CONCATENATEX**
-``` 
-Select Filter =
-IF (
-    ISBLANK ( SELECTEDVALUE ( Cancellation_Details[Priority Text] ) ),
-    IF (
-        CONCATENATEX (
-            DISTINCT ( Cancellation_Details[Is Un-executed (New)] ),
-            [Is Un-executed (New)]
-        ) = "TRUE",
-        "Un-Executed",
-        "Show all Details"
-    ),
-    SELECTEDVALUE ( Cancellation_Details[Priority Text] )
-        & SELECTEDVALUE ( Cancellation_Details[Result Text] )
-)
-```
-
+**Cancellation Execution %**
 This is the North Star KPI, used to evaluate buyer execution performance.
 When there are no unexecuted POs and no POs within the selected scope, the KPI defaults to 100%.
 
-**DIVIDE**
-
 ```
+DIVIDE
+
 Cancellation Execution % =
 VAR __TotalCancels =
     [Total Cancels (Inside)] +
@@ -106,12 +86,38 @@ RETURN
     __Result			
 ```
 
+**Select Filter**
+
+This measure dynamically generates a filter label based on user selections.
+It detects whether a priority is selected and whether the view is limited to unexecuted items, then displays a clear, user-friendly description of the current filter context
+
+```
+CONCATENATEX
+
+Select Filter =
+IF (
+    ISBLANK ( SELECTEDVALUE ( Cancellation_Details[Priority Text] ) ),
+    IF (
+        CONCATENATEX (
+            DISTINCT ( Cancellation_Details[Is Un-executed (New)] ),
+            [Is Un-executed (New)]
+        ) = "TRUE",
+        "Un-Executed",
+        "Show all Details"
+    ),
+    SELECTEDVALUE ( Cancellation_Details[Priority Text] )
+        & SELECTEDVALUE ( Cancellation_Details[Result Text] )
+)
+```
+
+**Sorted Cancellation Execution**
+
 When a measure is used for sorting, ISINSCOPE ensures that row-level values and total-level logic are handled separately, 
 preventing total calculations from overriding the values used to rank individual rows
 
-**ISINSCOPE**
-
 ```
+ISINSCOPE
+
 Sorted Cancellation Execution = 
 IF(
     ISINSCOPE(Cancellation[Snapshot Date]),
@@ -122,6 +128,8 @@ IF(
     )
 )				    
 ```
+
+**Last Week Partial Received (Week1 and No Demand)**
 
 I add + 0 to force BLANK results to zero, which ensures consistent numeric output for KPIs, sorting, and conditional formatting.
 ```
