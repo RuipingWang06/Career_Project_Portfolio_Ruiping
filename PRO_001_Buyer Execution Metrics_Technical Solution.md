@@ -84,6 +84,11 @@ IF (
 )
 ```
 
+This is the North Star KPI, used to evaluate buyer execution performance.
+When there are no unexecuted POs and no POs within the selected scope, the KPI defaults to 100%.
+
+**DIVIDE**
+
 ```
 Cancellation Execution % =
 VAR __TotalCancels =
@@ -101,6 +106,11 @@ RETURN
     __Result			
 ```
 
+When a measure is used for sorting, ISINSCOPE ensures that row-level values and total-level logic are handled separately, 
+preventing total calculations from overriding the values used to rank individual rows
+
+**ISINSCOPE**
+
 ```
 Sorted Cancellation Execution = 
 IF(
@@ -112,6 +122,8 @@ IF(
     )
 )				    
 ```
+
+I add + 0 to force BLANK results to zero, which ensures consistent numeric output for KPIs, sorting, and conditional formatting.
 ```
 Last Week Partial Received (Week1 and No Demand) =
 CALCULATE (
