@@ -72,7 +72,7 @@
 - **Model type**: Star schema
 - **Components**:
   - Fact tables (13-week summary, current-week detail)
-  - Dimension tables (date, plant, material, vendor, etc.)
+  - Dimension tables (date, plant, profit center, buyer, datasource.)
 - **Optimizations**:
   - Minimal relationships
   - Bridge tables where required
