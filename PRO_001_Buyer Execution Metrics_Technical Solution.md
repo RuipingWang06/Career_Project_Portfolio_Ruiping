@@ -69,7 +69,7 @@ This is the North Star KPI, used to evaluate buyer execution performance.
 When there are no unexecuted POs and no POs within the selected scope, the KPI defaults to 100%.
 
 ```
-DIVIDE
+*DIVIDE*
 
 Cancellation Execution % =
 VAR __TotalCancels =
