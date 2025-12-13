@@ -93,7 +93,7 @@ This measure dynamically generates a filter label based on user selections.
 It detects whether a priority is selected and whether the view is limited to unexecuted items, then displays a clear, user-friendly description of **the current filter context**.
 
 ```
-CONCATENATEX
+*CONCATENATEX*
 
 Select Filter =
 IF (
@@ -117,7 +117,7 @@ When a measure is used for sorting, **ISINSCOPE** ensures that **row-level** val
 preventing total calculations from overriding the values used to rank individual rows.
 
 ```
-ISINSCOPE
+*ISINSCOPE*
 
 Sorted Cancellation Execution = 
 IF(
