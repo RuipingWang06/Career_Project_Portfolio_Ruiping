@@ -64,6 +64,7 @@ Summary Fact table * : 1 Bridge table 1 ：* Detail Fact table
 # Dax
 
 **Cancellation Execution %**
+
 This is the North Star KPI, used to evaluate buyer execution performance.
 When there are no unexecuted POs and no POs within the selected scope, the KPI defaults to 100%.
 
