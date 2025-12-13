@@ -1,5 +1,7 @@
 # Power Query
 
+Set
+
 ## Set up M parameter & SQL_Query
 
 ### ServerName
