@@ -143,3 +143,53 @@ CALCULATE (
 ) + 0
 
 ```
+
+**Cancellation Row Count (total)**
+
+Used a dynamic DAX measure to drive the **detail table title**, displaying the **table name, row count, and selected KPI**.
+
+```
+Cancellation Row Count (total) = 
+"CURRENT WEEK DETAILS - Row Count : "
+    & FORMAT (
+        COUNTROWS (
+            SUMMARIZE (
+                'Cancellation_Details',
+                Cancellation_Details[Result],
+                Cancellation_Details[Plant Code],
+                CancellationBuyers[Buyer Name],
+                Cancellation_Details[Material Code],
+                Cancellation_Details[Global Supplier Name],
+                Cancellation_Details[Purchase Document Number],
+                Cancellation_Details[Purchase Document Item (Mon)], 
+                Cancellation_Details[Purchase Schedule Line (Mon)],
+                Cancellation_Details[Open Quantity (Mon)],
+                Cancellation_Details[Priority],
+                Cancellation_Details[Delivery Finish Date Key (Mon)],
+                Cancellation_Details[Delivery Finish Date Key (Sun)],
+                Cancellation_Details[MRP Requirement Date (Mon)],
+                Cancellation_Details[MRP Requirement Date (Sun)],
+                Cancellation_Details[Planned Delivery Time],
+                Cancellation_Details[In transit Lead Time],
+                Cancellation_Details[Reschedule Lead Time],
+                Cancellation_Details[Cancellation Lead Time],
+                Cancellation_Details[Creation Date],
+                Cancellation_Details[Cancellable],
+                Cancellation_Details[NCNR],
+                vw_ProfitCenterHierarchy[segmentname],
+                vw_planthierarchy[divisionname],
+                vw_ProfitCenterHierarchy[sectorname],
+                vw_ProfitCenterHierarchy[customergroupname],
+                vw_ProfitCenterHierarchy[customername],
+                vw_ProfitCenterHierarchy[workcellname],
+                CancellationBuyers[Buyer Code],
+                Cancellation_Details[Supplier Code],
+                Cancellation_Details[ABC Code],
+                Cancellation_Details[Doc Type],
+                Cancellation_Details[MRP Element Indicator]
+            )
+        ),
+        "#,0"
+    ) & REPT ( " ", 20 ) & // Adjust the number of spaces as needed for alignment
+"Current data display: " & [Select Filter]
+```
