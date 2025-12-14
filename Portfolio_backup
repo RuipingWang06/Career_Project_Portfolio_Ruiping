@@ -1,0 +1,85 @@
+# About Me
+**BI professional** with 6+ years of experience delivering **enterprise-scale BI solutions**. 
+Expert in **Power BI**, **SQL**, and **data modeling**, with a strong ability to convert 
+**complex business rules** into accurate **SQL logic** and **intuitive reports**.
+
+# Technical Skills
+
+- **BI Tools:** Power BI, Report Builder, SSRS  
+- **Databases & Programming:** SQL Server, Snowflake, PL/SQL, HiveSQL, Spark, Shell  
+- **Data Engineering:** Data modeling, star/snowflake/constellation schema design, ETL development  
+- **Tools & Platforms:** Azure DevOps, Linux
+
+# Soft Skills
+
+- Strong problem-solving skills; able to work independently and adapt quickly  
+- Clear and concise communication  
+- Effective cross-functional teamwork
+
+# Featured Project
+
+## [Supply Chain - Buyer Execution Metrics – Global PO Risk Detection System](https://github.com/RuipingWang06/Career_Project_Portfolio_Ruiping/blob/main/Buyer_Execution_Metric.md) 
+
+**Role:** BI Developer   
+**Tech Stack:** Power BI, Power Apps, Snowflake, DAX, Power Query, Data Model, Deployment Pipelines, M-Parameters  
+**Timeline:** April 2024-04 (Jabil – Global Procurement)
+
+**Project Overview**
+
+A global BI + workflow solution built for **100+ Jabil plants** to identify and manage **urgent, unexecuted purchase orders (POs)**.
+
+Before this project, the lack of a **unified risk-identification process** caused:
+
+- Delivery delays  
+- Unnecessary or duplicate purchases  
+- Recurring **multi-million-dollar losses**
+
+This solution became part of Jabil’s **global procurement operating model**.
+
+## [Power BI Metadata Governance](https://github.com/RuipingWang06/Career_Project_Portfolio_Ruiping/blob/main/PBI%20Governance.md)
+
+**Role:** Data Engineer / BI Developer  
+**Tech Stack:** Python, Docker, Azure Container Apps, Microsoft AIP, AWS S3, Snowflake, SQL, ETL  
+**Timeline:** 2025 (Jabil – Global BI Governance)
+
+**Project Overview**
+
+A Power BI governance initiative to improve visibility and compliance across **1,000+ reports** globally.
+
+We built an **Azure-hosted metadata ETL pipeline** where Python extracts report metadata via **Microsoft AIP**, loads it into **AWS S3**, and feeds **Snowflake models** that power centralized governance dashboards.
+
+These dashboards surface:
+
+- Usage and performance trends  
+- Best-practice violations  
+- Non-compliant workspaces  
+- Developer optimization opportunities  
+
+This platform helps BI leaders **identify governance gaps**, perform **root-cause analysis**, and maintain a **consistent, scalable reporting environment**.
+
+## [Manufacture - Arista DPPM Report](https://github.com/RuipingWang06/Career_Project_Portfolio_Ruiping/blob/main/Arista_DPPM_Report.md) 
+
+**Role:** Power BI Developer / Data Engineer  
+**Tech Stack:** Power BI, SQL Server, Stored Procedures, SSRS / Paginated Reports
+**Timeline:** (Jabil – Product Traceability Project)
+
+**Project Overview**
+
+A vendor-facing **traceability solution** that gave Arista clear visibility into material usage and defect locations across Jabil’s production lines, enabling them to analyze failures and improve supply quality.
+
+Key contributions:
+
+- Identified gaps between the BRD and actual data, and clarified the correct business logic  
+- Redesigned the **end-to-end data flow** to support accurate component-to-defect mapping  
+- Developed **stored procedures** to load clean, daily production and defect data  
+- Built an **internal Power BI dashboard** for traceability monitoring  
+- Delivered an **external paginated report** for Arista to support vendor analysis
+
+This solution strengthened vendor collaboration and improved supply chain transparency.
+
+# Contact Me
+* [LinkedIn](https://www.linkedin.com/in/ruiping-wang-ashleigh/) 
+* **Phone: 917-385-8193** 
+* **Email: Ruipingwang06@gmail.com** 
+
+# [Resume Download](https://github.com/RuipingWang06/Career_Project_Portfolio_Ruiping/blob/main/Ruiping%20Wang%20(Ashleigh)%20%E2%80%93%20BI%20Analyst%20Authorized%20to%20Work%20%20No%20Sponsorship%20Needed.pdf)
