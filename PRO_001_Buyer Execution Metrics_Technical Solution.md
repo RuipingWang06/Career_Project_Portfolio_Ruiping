@@ -144,6 +144,20 @@ CALCULATE (
 
 ```
 
+**Valid Customer by Plant**
+
+To ensure the matrix only displays customers relevant to the selected plant, while still including customers with zero values if they exist at that plant.
+···
+Valid Customer by Plant =
+IF (
+    CALCULATE (
+        COUNTROWS (ExcessAndObsolete),
+        ALLEXCEPT(ExcessAndObsolete, ExcessAndObsolete[Customer], ExcessAndObsolete[Plant])
+    ) > 0,
+    1,
+    0
+)
+···
 **Cancellation Row Count (total)**
 
 Used a dynamic DAX measure to drive the **detail table title**, displaying the **table name, row count, and selected KPI**.
