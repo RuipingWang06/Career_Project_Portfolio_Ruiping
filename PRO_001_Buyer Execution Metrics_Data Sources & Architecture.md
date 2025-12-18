@@ -82,7 +82,7 @@
 - **Report structure**:
   - Executive overview (13-week trends)
   - Operational dashboards (current-week details)
-  - Drill-through and filtering paths
+  - Drill-through，Drill down and filtering paths
 - **Design focus**:
   - Clear KPIs
   - Consistent metric definitions
