@@ -6,6 +6,10 @@
 
 Help me turn this STAR story into a simple, natural, and easy 1-minute spoken answer for an interview. Make it conversational, clear, and focused on the business problem, my thinking process, the technical solution, and measurable results. Here is the full situation, obstacle, actions, results, and insight. Please rewrite it as if I am saying it out loud in an interview.
 
+- **Interview storytelling tone**
+
+Help me turn this expersion into a simple, natural, and easy spoken for an interview. Make it conversational, clear. Please rewrite it as if I am saying it out loud in an interview.
+
 - **Interview Walk me through your resume prompt**
 
 Help me turn this into a simple, natural 1-minute spoken answer for the interview question: ‘Walk me through your resume.’ Please make it conversational, clear, and focused on my career timeline, key roles, responsibilities, achievements, and the reasons behind each career move. Rewrite it as if I am saying it out loud in an interview.
