@@ -111,3 +111,4 @@ select extract (dow from payment_date) from payment
 
 --Mathmatical functions
 factorial/cube root/...
+
