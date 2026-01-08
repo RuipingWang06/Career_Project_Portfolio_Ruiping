@@ -14,3 +14,10 @@ SELECT cte.dt,
        COALESCE( sales.num_sales, ROUND((LAG(sales.num_sales) OVER() + LEAD( sales.num_sales)OVER())/2) AS sales_estimate
 FROM cte LEFT JOIN sales ON cte.dt = sales.dt;
 ```
+**Exists**
+```
+select count(*) 
+from payment p 
+where  exists 
+(select 1 from rental r where p.rental_id=r.rental_id);
+```
