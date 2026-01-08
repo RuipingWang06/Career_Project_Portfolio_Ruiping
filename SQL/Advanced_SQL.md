@@ -15,10 +15,12 @@ with descriptive attributes from dimension tables for reporting or analysis.
 which film is out of inventory 
 */
 
-select  film.film_id,film.title,inventory_id 
-from film
-left join inventory on film.film_id = inventory.film_id
-where inventory.film_id is null;
+SELECT film.film_id,
+       film.title,
+       inventory_id
+FROM film
+LEFT JOIN inventory ON film.film_id = inventory.film_id
+WHERE inventory.film_id IS NULL;
 ```
 
 
