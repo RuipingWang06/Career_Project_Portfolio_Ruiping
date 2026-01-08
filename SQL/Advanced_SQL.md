@@ -26,9 +26,11 @@ WHERE inventory.film_id IS NULL;
 
 
 
-**RECURSIVE + INTERVAL** create a dimdate table with specific date range
+**RECURSIVE + INTERVAL** 
 
 ```
+---Create a dimdate table with specific date range,when there isn't a Date table in databases
+
 WITH RECURSIVE cte AS ( SELECT CAST('2025-01-01' AS DATE) AS dt
                         UNION ALL
                         SELECT dt + INTERVAL 1 DAY
@@ -36,7 +38,7 @@ WITH RECURSIVE cte AS ( SELECT CAST('2025-01-01' AS DATE) AS dt
                         WHERE dt < CAST ('2025-01-07' AS DATE)
                       )
 ```
-**COALESCE + ROUND + LAG()OVER(), ROW_NUMBER()OVER(),LEAD()OVER()**
+**COALESCE + ROUND + LAG()OVER(), LEAD()OVER(), ROW_NUMBER()OVER()**
 ```
 SELECT cte.dt,
        COALESCE( sales.num_sales, ROUND((LAG(sales.num_sales) OVER() + LEAD( sales.num_sales)OVER())/2) AS sales_estimate
@@ -68,4 +70,11 @@ ORDER BY created_date
 LIMIT 10 OFFSET 20;
 ```
 
+```
+SELECT c.name AS country, l.name AS language, official
+FROM countries AS c
+INNER JOIN languages AS l
+-- Match using the code column
+USING (code)
+```
 
