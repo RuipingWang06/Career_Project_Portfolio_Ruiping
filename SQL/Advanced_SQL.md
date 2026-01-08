@@ -1,3 +1,8 @@
+**SQL Logic overview**
+
+<img width="945" height="1031" alt="image" src="https://github.com/user-attachments/assets/ced0814b-d189-4305-bc26-49e8e8c64684" />
+
+
 **LEFT JOIN**
 
 ```
