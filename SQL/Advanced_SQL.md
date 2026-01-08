@@ -1,7 +1,13 @@
+
+
 **SQL Logic overview**
 
 <img width="945" height="1031" alt="image" src="https://github.com/user-attachments/assets/ced0814b-d189-4305-bc26-49e8e8c64684" />
 
+**Data Type**
+Numerical : float,doubles,integer,boolean(0/1)
+Non - Numberical : char,charater
+timestamp : pay attention to the timezone 
 
 **LEFT JOIN**
 
@@ -93,4 +99,14 @@ FROM countries AS c
 INNER JOIN languages AS l
 USING (code)
 ```
+
+
+--Function
+
+**extract** a spcific day/month from the payment_date
+
+select extract (day from payment_date) from payment
+select extract (Month from payment_date) from payment
+select extract (dow from payment_date) from payment
+
 
