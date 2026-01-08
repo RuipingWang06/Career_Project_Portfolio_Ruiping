@@ -1,7 +1,6 @@
 **LEFT JOIN**
 
 ```
-/*
 USE CASE
 
 When a dimension table is used as the driving (top) table, it is usually to identify
@@ -13,7 +12,6 @@ When a fact table is used as the driving (top) table, it is usually to enrich fa
 with descriptive attributes from dimension tables for reporting or analysis.
 
 which film is out of inventory 
-*/
 
 SELECT film.film_id,
        film.title,
@@ -22,8 +20,18 @@ FROM film
 LEFT JOIN inventory ON film.film_id = inventory.film_id
 WHERE inventory.film_id IS NULL;
 ```
+**FULL JOIN** is used when you need to keep all records from both tables,including matched and unmatched rows.
 
+```
+USE CASE
 
+Perform reconciliation or data quality checks (e.g., source vs target, old system vs new system).
+
+SELECT * 
+FROM film_old O
+FULL JOIN file_new N ON O.film_id = N.film_id
+WHERE O.film_id IS NULL OR N.film_id IS NULL
+```
 
 
 **RECURSIVE + INTERVAL** 
