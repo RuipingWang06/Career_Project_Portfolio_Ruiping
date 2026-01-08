@@ -3,23 +3,26 @@
 ```
 /*
 USE CASE
-  When a dimension table is used as the driving (top) table, it is usually to identify
-  whether dimension records exist in the fact table (e.g., coverage or usage analysis).
-  The join is typically:
-  Dimension.PK = Fact.FK
 
-  When a fact table is used as the driving (top) table, it is usually to enrich fact records
-  with descriptive attributes from dimension tables for reporting or analysis.
+When a dimension table is used as the driving (top) table, it is usually to identify
+whether dimension records exist in the fact table (e.g., coverage or usage analysis).
+The join is typically:
+Dimension.PK = Fact.FK
+
+When a fact table is used as the driving (top) table, it is usually to enrich fact records
+with descriptive attributes from dimension tables for reporting or analysis.
 
 which film is out of inventory 
-  */
+*/
 
 select  film.film_id,film.title,inventory_id 
 from film
 left join inventory on film.film_id = inventory.film_id
 where inventory.film_id is null;
-
 ```
+
+
+
 
 **RECURSIVE + INTERVAL** create a dimdate table with specific date range
 
