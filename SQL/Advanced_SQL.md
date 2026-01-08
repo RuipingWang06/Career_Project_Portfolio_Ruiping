@@ -32,7 +32,8 @@ FROM film_old O
 FULL JOIN file_new N ON O.film_id = N.film_id
 WHERE O.film_id IS NULL OR N.film_id IS NULL
 ```
-
+**SELF JOIN**
+**INNER JOIN**
 
 **RECURSIVE + INTERVAL** 
 
