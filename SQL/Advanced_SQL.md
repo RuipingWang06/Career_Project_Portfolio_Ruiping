@@ -1,4 +1,4 @@
-**LEFT JOIN **
+**LEFT JOIN**
 
 ```
 /*
