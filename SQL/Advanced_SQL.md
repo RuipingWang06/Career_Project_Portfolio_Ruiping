@@ -70,11 +70,12 @@ ORDER BY created_date
 LIMIT 10 OFFSET 20;
 ```
 
+
+**USING**
 ```
 SELECT c.name AS country, l.name AS language, official
 FROM countries AS c
 INNER JOIN languages AS l
--- Match using the code column
 USING (code)
 ```
 
