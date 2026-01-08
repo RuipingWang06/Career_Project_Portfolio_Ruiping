@@ -33,12 +33,12 @@ WHERE inventory.film_id IS NULL;
 ```
 **FULL JOIN** is used when you need to keep all records from both tables,including matched and unmatched rows.
 
-```
 USE CASE
 
 Perform reconciliation or data quality checks (e.g., source vs target, old system vs new system).
 <img width="647" height="431" alt="image" src="https://github.com/user-attachments/assets/51718c3f-64e0-4290-9a2f-3ece8c233703" />
 
+```
 SELECT * 
 FROM film_old O
 FULL JOIN file_new N ON O.film_id = N.film_id
