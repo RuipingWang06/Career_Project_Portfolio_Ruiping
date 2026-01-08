@@ -37,6 +37,7 @@ WHERE inventory.film_id IS NULL;
 USE CASE
 
 Perform reconciliation or data quality checks (e.g., source vs target, old system vs new system).
+<img width="647" height="431" alt="image" src="https://github.com/user-attachments/assets/51718c3f-64e0-4290-9a2f-3ece8c233703" />
 
 SELECT * 
 FROM film_old O
