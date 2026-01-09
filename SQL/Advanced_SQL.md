@@ -76,10 +76,10 @@ where  exists
 ```
 **FETCH, LIMIT**
 
-```
 It sorts the rows by created_date, then skips the first 20 rows and returns the next 10 rows only.
 In other words, it returns rows 21 to 30 from the ordered result set, which is commonly used for pagination (for example, showing one page of results at a time).
 
+```
 SELECT *
 FROM table_name
 ORDER BY created_date
