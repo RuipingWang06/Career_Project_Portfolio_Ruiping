@@ -114,5 +114,13 @@ select extract (dow from payment_date) from payment
 ```
 
 **Mathmatical functions**
-factorial/cube root/...
+- Addition (+): Adds values together (e.g., 2 + 3 = 5).
+- Subtraction (-): Subtracts one value from another (e.g., 2 - 3 = -1).
+- Multiplication (*): Multiplies values (e.g., 2 * 3 = 6).
+- Division (/): Performs division; note that integer division truncates the result (e.g., 4 / 2 = 2).
+- Modulo (%): Returns the remainder of a division (e.g., 5 % 4 = 1).
+- Exponentiation (^): Raises a number to a power (e.g., 2.0 ^ 3.0 = 8).
+- Square Root (|/): Calculates the square root of a value.
+- Cube Root (||/): Calculates the cube root of a value.
+- Factorial (!): Calculates the factorial of a number (e.g., 5! = 120).
 
