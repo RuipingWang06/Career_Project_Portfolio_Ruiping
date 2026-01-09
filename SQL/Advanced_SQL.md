@@ -107,9 +107,11 @@ USING (code)
 
 **extract** a spcific day/month from the payment_date
 
+```
 select extract (day from payment_date) from payment
 select extract (Month from payment_date) from payment
 select extract (dow from payment_date) from payment
+```
 
 **Mathmatical functions**
 factorial/cube root/...
