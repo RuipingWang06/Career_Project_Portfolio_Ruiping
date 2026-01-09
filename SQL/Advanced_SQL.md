@@ -92,7 +92,7 @@ FROM table_name
 ORDER BY created_date
 LIMIT 10 OFFSET 20;
 ```
-
+**Sub query**
 
 **USING**
 ```
@@ -103,7 +103,7 @@ USING (code)
 ```
 
 
---Function
+**Function**
 
 **extract** a spcific day/month from the payment_date
 
@@ -111,6 +111,6 @@ select extract (day from payment_date) from payment
 select extract (Month from payment_date) from payment
 select extract (dow from payment_date) from payment
 
---Mathmatical functions
+**Mathmatical functions**
 factorial/cube root/...
 
