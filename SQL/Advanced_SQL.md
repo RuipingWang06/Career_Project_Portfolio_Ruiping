@@ -9,6 +9,24 @@ Numerical : float,doubles,integer,boolean(0/1)
 Non - Numberical : char,charater
 timestamp : pay attention to the timezone 
 
+
+**GROUP BY**
+```
+SELECT 
+    c.first_name, 
+    c.last_name, 
+    c.email, 
+    SUM(p.amount) AS total_spent, 
+    EXTRACT(year FROM MAX(p.payment_date)) AS last_payment_year 
+FROM customer c 
+JOIN payment p ON c.customer_id = p.customer_id -- Use JOIN to link the customer and payment tables
+GROUP BY c.customer_id, c.first_name, c.last_name, c.email -- Group by customer to calculate total spending 
+HAVING SUM(p.amount) > 200 -- Filter groups with total spending greater than 200 
+ORDER BY total_spent DESC -- Sort by total spending from highest to lowest 
+LIMIT 5; -- Return only the top 5 records
+```
+
+
 **LEFT JOIN**
 
 ```
