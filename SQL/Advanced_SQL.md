@@ -64,6 +64,17 @@ FULL JOIN file_new N ON O.film_id = N.film_id
 WHERE O.film_id IS NULL OR N.film_id IS NULL
 ```
 **SELF JOIN**
+https://www.geeksforgeeks.org/postgresql/postgresql-self-join/
+···
+--Show the film Name which have the same runing time
+SELECT
+    f1.title AS Film_1,
+    f2.title AS Film_2,
+    f1.length AS Runtime
+FROM
+    film AS f1
+INNER JOIN film AS f2 ON f1.film_id <> f2.film_id AND f1.length = f2.length;
+···
 
 **INNER JOIN**
 
