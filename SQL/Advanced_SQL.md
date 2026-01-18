@@ -140,6 +140,8 @@ USING (code)
 select extract (day from payment_date) from payment
 select extract (Month from payment_date) from payment
 select extract (dow from payment_date) from payment
+-- age calculation
+EXTRACT(YEAR FROM AGE(CURRENT_DATE, p.birth_date))
 ```
 
 **Mathmatical functions**
