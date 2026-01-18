@@ -164,4 +164,10 @@ CREATE TABLE table_a_copy AS
 SELECT *
 FROM table_a;
 ```
+**Drop columns**
+
+```
+ALTER TABLE table_name
+DROP COLUMN column_name;
+```
 
