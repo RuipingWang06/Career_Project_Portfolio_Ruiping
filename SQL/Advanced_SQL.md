@@ -153,3 +153,13 @@ select extract (dow from payment_date) from payment
 - Cube Root (||/): Calculates the cube root of a value.
 - Factorial (!): Calculates the factorial of a number (e.g., 5! = 120).
 
+**Create Table**
+
+Back up table (copy table structure and data)
+
+```
+CREATE TABLE table_a_copy AS
+SELECT *
+FROM table_a;
+```
+
