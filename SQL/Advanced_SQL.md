@@ -145,6 +145,8 @@ EXTRACT(YEAR FROM AGE(CURRENT_DATE, p.birth_date))
 ```
 
 **Mathmatical functions**
+
+```
 - Addition (+): Adds values together (e.g., 2 + 3 = 5).
 - Subtraction (-): Subtracts one value from another (e.g., 2 - 3 = -1).
 - Multiplication (*): Multiplies values (e.g., 2 * 3 = 6).
@@ -154,6 +156,7 @@ EXTRACT(YEAR FROM AGE(CURRENT_DATE, p.birth_date))
 - Square Root (|/): Calculates the square root of a value.
 - Cube Root (||/): Calculates the cube root of a value.
 - Factorial (!): Calculates the factorial of a number (e.g., 5! = 120).
+```
 
 **Create Table**
 
