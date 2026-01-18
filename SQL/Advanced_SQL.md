@@ -170,4 +170,10 @@ FROM table_a;
 ALTER TABLE table_name
 DROP COLUMN column_name;
 ```
+**Alter columns Type**
+
+```
+ALTER TABLE your_table
+ALTER COLUMN your_column TYPE new_data_type;
+```
 
