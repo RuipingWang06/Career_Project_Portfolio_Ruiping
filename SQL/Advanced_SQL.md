@@ -163,6 +163,20 @@ Back up table (copy table structure and data)
 CREATE TABLE table_a_copy AS
 SELECT *
 FROM table_a;
+
+CREATE TABLE fact_reviews (
+    review_key BIGINT GENERATED ALWAYS AS IDENTITY,
+    author_id            TEXT,
+    rating               NUMERIC,          
+    is_recommended       BOOLEAN,          
+    helpfulness          NUMERIC,          
+    submission_time      DATE,             
+    skin_type            TEXT
+    skin_tone            TEXT
+    sentiment_compound   NUMERIC,          
+    sentiment_strength   NUMERIC,          
+    sentiment_label      TEXT              
+)
 ```
 **Drop columns**
 
@@ -176,4 +190,60 @@ DROP COLUMN column_name;
 ALTER TABLE your_table
 ALTER COLUMN your_column TYPE new_data_type;
 ```
+**Insert**
 
+When inserting data into a table with an auto-increment primary key, list all columns except the primary key. The primary key value will be generated automatically.
+
+```
+-- ~ : regex match, use to chlean data
+
+INSERT INTO fact_reviews 
+(author_id,
+ rating,
+ is_recommended,
+ helpfulness,
+ submission_time,
+ skin_type,
+ skin_tone,
+ sentiment_compound,
+ sentiment_strength,
+ sentiment_label)
+SELECT 
+    author_id ,
+    CAST(rating AS NUMERIC) AS rating,
+    CASE 
+        WHEN is_recommended NOT IN ('1','0') THEN NULL
+        ELSE is_recommended = '1'
+    END AS is_recommended,
+    CASE 
+        WHEN helpfulness ~ '^[0-9]+(\.[0-9]+)?$'
+        THEN helpfulness::NUMERIC
+        ELSE NULL
+    END AS helpfulness, 
+	CAST(submission_time AS DATE) AS submission_time,
+    skin_type,
+    CASE
+        WHEN skin_tone IN (
+            'dark','deep','ebony','fair','fairLight','light',
+            'lightMedium','medium','mediumTan','olive',
+            'porcelain','rich','tan'
+        )
+        THEN skin_tone
+        ELSE ''
+    END AS skin_tone,
+    CAST(sentiment_compound AS NUMERIC)  AS sentiment_compound,
+    CAST(sentiment_strength AS NUMERIC)  AS sentiment_strength,
+    sentiment_label
+FROM sephora_reviews_raw a
+WHERE EXISTS (
+    SELECT 1 
+    FROM dim_sephora_products b 
+    WHERE a.product_id = b.product_id
+)
+AND author_id ~ '^[0-9]+$'
+AND rating ~ '^[0-9]+(\.[0-9]+)?$'
+AND (submission_time IS NOT NULL
+AND NOT (submission_time ~ '^\d{4}-\d{2}-\d{2}$'
+    AND submission_time::date IS NOT NULL
+  ));
+```
