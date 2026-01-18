@@ -2,7 +2,7 @@
 
 **SQL Logic overview**
 
-<img width="945" height="1031" alt="image" src="https://github.com/user-attachments/assets/ced0814b-d189-4305-bc26-49e8e8c64684" />
+<img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/ced0814b-d189-4305-bc26-49e8e8c64684" />
 
 **Data Type**
 Numerical : float,doubles,integer,boolean(0/1)
@@ -123,7 +123,7 @@ FROM table_name
 ORDER BY created_date
 LIMIT 10 OFFSET 20;
 ```
-**Sub query**
+**SUB QUERY**
 
 **USING**
 ```
@@ -132,7 +132,7 @@ FROM countries AS c
 INNER JOIN languages AS l
 USING (code)
 ```
-**Function**
+**FUNCTION**
 
 **extract** a spcific day/month from the payment_date
 
@@ -181,19 +181,19 @@ CREATE TABLE fact_reviews (
     sentiment_label      TEXT              
 )
 ```
-**Drop columns**
+**DROP**
 
 ```
 ALTER TABLE table_name
 DROP COLUMN column_name;
 ```
-**Alter columns Type**
+**ALTER**
 
 ```
 ALTER TABLE your_table
 ALTER COLUMN your_column TYPE new_data_type;
 ```
-**Insert**
+**INSERT**
 
 When inserting data into a table with an auto-increment primary key, list all columns except the primary key. The primary key value will be generated automatically.
 
