@@ -190,8 +190,8 @@ DROP COLUMN column_name;
 **ALTER**
 
 ```
-ALTER TABLE your_table
-ALTER COLUMN your_column TYPE new_data_type;
+ALTER TABLE sephora_products
+RENAME TO sephora_products_raw;
 ```
 **INSERT**
 
